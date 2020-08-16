@@ -34,7 +34,7 @@ def rsign():
     return -1 if random.rand() < 0.5 else 1
 
 def flat_plate_image_path(plate_type, name):
-    return os.path.join(flat_data_path, plate_type, f"{name}.jpg")
+    return os.path.join(flat_data_path, plate_type, f"{name}.png")
     
 def output_plate_image_path(plate_type, name):
     return os.path.join(output_path, plate_type, f"{name}.png")
